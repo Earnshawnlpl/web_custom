@@ -1,0 +1,14 @@
+@font-face {
+    font-family:'全字库正体';
+    src:url('TW-Sung-Plus-98_1.ttf'); /* 修改成你的字体 */
+    font-display:swap /*swap 表示如果字体文件还没有加载完成，先显示默认字体，等字体加载完毕后再切换到自定义字体。*/
+}
+h1#site-title {
+    font-family:全字库正体!important
+}
+span#subtitle {
+    font-family:全字库正体!important
+}
+a#site-name {
+    font-family:全字库正体!important
+}
